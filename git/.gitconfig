@@ -1,0 +1,6 @@
+[user]
+	name = giovanism
+	email = giovanism@outlook.co.id
+[core]
+	editor = vim
+	pager = less -iXFR
