@@ -1,3 +1,6 @@
+set nocp		" 'compatible' is not set
+filetype plugin on	" plugins are enabled
+
 "colorscheme pablo
 "colorscheme not found
 
