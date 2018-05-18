@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/giovanism/Repos/it-force/alkhwarizmi/lpj'
+let g:netrw_dirhist_2='/home/giovanism/Repos/garbage/assignment/assignment-2'
+let g:netrw_dirhist_3='/home/giovanism/Repos/garbage/assignment/assignment-2/build'
+let g:netrw_dirhist_4='/home/giovanism/Repos/garbage/assignment/assignment-2/build/classes'
+let g:netrw_dirhist_5='/home/giovanism/Repos/garbage/assignment/assignment-2/build/classes/java'
+let g:netrw_dirhist_6='/home/giovanism/Repos/garbage/assignment/assignment-2/build/classes/java/main'
+let g:netrw_dirhist_7='/home/giovanism/Repos/it-force/alkhwarizmi'
+let g:netrw_dirhist_8='/home/giovanism/Repos/it-force/alkhwarizmi/org'
+let g:netrw_dirhist_9='/home/giovanism/Repos/it-force/alkhwarizmi/lpj/templates'
