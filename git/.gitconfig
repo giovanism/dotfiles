@@ -2,5 +2,8 @@
 	name = giovanism
 	email = giovanism@outlook.co.id
 [core]
-	editor = vim
+	editor = nvim
 	pager = less -iXFR
+
+[credential]
+	helper = cache --timeout 7200
