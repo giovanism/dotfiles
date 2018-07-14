@@ -1,0 +1,67 @@
+#
+# hosts         This file describes a number of hostname-to-address
+#               mappings for the TCP/IP subsystem.  It is mostly
+#               used at boot time, when no name servers are running.
+#               On small systems, this file can be used instead of a
+#               "named" name server.
+# Syntax:
+#    
+# IP-Address  Full-Qualified-Hostname  Short-Hostname
+#
+
+127.0.0.1	localhost
+
+# reddit specifics domain and subdomains
+151.101.129.140 reddit.com
+151.101.129.140 ww.reddit.com
+151.101.129.140 www.reddit.com
+151.101.129.140 ssl.reddit.com
+151.101.129.140 4x.reddit.com
+151.101.129.140 about.reddit.com
+151.101.129.140 blog.reddit.com
+151.101.129.140 bt.reddit.com
+151.101.129.140 en.reddit.com
+151.101.129.140 en-us.reddit.com
+151.101.129.140 gateway.reddit.com
+151.101.129.140 i.reddit.com
+151.101.129.140 pay.reddit.com
+151.101.129.140 m.reddit.com
+151.101.129.140 nm.reddit.com
+151.101.129.140 np.reddit.com
+151.101.129.140 oauth.reddit.com
+151.101.129.140 out.reddit.com
+151.101.129.140 i.reddituploads.com
+151.101.129.140 redd.it
+151.101.129.140 i.redd.it
+151.101.129.140 www.redditmedia.com
+151.101.129.140 a.thumbs.redditmedia.com
+151.101.129.140 b.thumbs.redditmedia.com
+151.101.129.140 events.redditmedia.com
+151.101.129.140 g.redditmedia.com
+151.101.129.140 i.redditmedia.com
+151.101.129.140 pixel.redditmedia.com
+151.101.129.140 stats.redditmedia.com
+192.0.79.33     redditblog.com
+192.0.79.33     www.redditblog.com
+151.101.129.140 www.redditstatic.com
+151.101.129.140 redditgifts.com
+151.101.129.140 www.redditgifts.com
+151.101.129.140 api.reddit.com
+151.101.129.140 e.reddit.com
+
+# 4chan domains
+104.16.116.221 4chan.org
+104.16.116.221 www.4chan.org
+104.16.119.221 boards.4chan.org
+104.16.59.249  i.4cdn.org
+
+# special IPv6 addresses
+::1             localhost ipv6-localhost ipv6-loopback
+
+fe00::0         ipv6-localnet
+
+ff00::0         ipv6-mcastprefix
+ff02::1         ipv6-allnodes
+ff02::2         ipv6-allrouters
+ff02::3         ipv6-allhosts
+
