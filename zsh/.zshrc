@@ -69,6 +69,16 @@ source $ZSH/oh-my-zsh.sh
 # Vim mode
 bindkey -v
 
+bindkey '^P'   up-history
+bindkey '^N'   down-history
+bindkey '^?'   backward-delete-char
+bindkey '^h'   backward-delete-char
+bindkey '^w'   backward-kill-word
+bindkey '^r'   history-incremental-search-backward
+bindkey '^[[Z' reverse-menu-complete
+
+export KEYTIMEOUT=1
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
