@@ -59,7 +59,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+  git shrink-path
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -68,6 +68,16 @@ source $ZSH/oh-my-zsh.sh
 
 # Vim mode
 bindkey -v
+
+bindkey '^P'   up-history
+bindkey '^N'   down-history
+bindkey '^?'   backward-delete-char
+bindkey '^h'   backward-delete-char
+bindkey '^w'   backward-kill-word
+bindkey '^r'   history-incremental-search-backward
+bindkey '^[[Z' reverse-menu-complete
+
+export KEYTIMEOUT=1
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

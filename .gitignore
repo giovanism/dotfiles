@@ -1,3 +1,8 @@
+# vim misc folder
+vim/.vim/.netrwhist
+vim/.vim/autoload
+vim/.vim/plugins
+
 # nvim plugin git folder
 nvim/nvim/plugged
 nvim/nvim/.netrwhist
