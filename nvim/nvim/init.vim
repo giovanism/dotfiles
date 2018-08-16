@@ -1,3 +1,6 @@
+" set colorscheme
+colorscheme pablo
+
 " vim-plug plugins
 call plug#begin()
 
