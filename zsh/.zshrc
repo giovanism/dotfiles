@@ -65,6 +65,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+setopt no_share_history
 
 # Vim mode
 bindkey -v
