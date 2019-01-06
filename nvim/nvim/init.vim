@@ -30,6 +30,6 @@ call plug#end()
 
 "Tab settings
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set tabstop=4
 
