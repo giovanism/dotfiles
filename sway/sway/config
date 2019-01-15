@@ -197,15 +197,25 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
+# Function Keys
+# Thinkpad T450
+#
+    # Backlight
+    bindsym XF86MonBrightnessUp exec xbacklight -inc 5    # increase screen brightness
+    bindsym XF86MonBrightnessDown exec xbacklight -dec 5  # decrease screen brightness
+
+
+
+#
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-    position top
+    position bottom
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+    status_command py3status
 
     colors {
         statusline #ffffff
