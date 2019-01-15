@@ -204,6 +204,10 @@ bindsym $mod+r mode "resize"
     bindsym XF86MonBrightnessUp exec xbacklight -inc 5    # increase screen brightness
     bindsym XF86MonBrightnessDown exec xbacklight -dec 5  # decrease screen brightness
 
+    # Sound
+    bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
+    bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
+    bindsym XF86AudioMute exec amixer -q set Master toggle
 
 
 #
