@@ -65,7 +65,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git shrink-path colored-man-pages
+  git shrink-path colored-man-pages zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
