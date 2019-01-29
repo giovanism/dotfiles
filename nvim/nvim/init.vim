@@ -25,6 +25,10 @@ let g:deoplete#enable_at_startup = 1
 
 "Airline stuff
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+let g:airline_theme             = 'kolor'
+let g:airline_enable_branch     = 1
+let g:airline_enable_syntastic  = 1
 
 call plug#end()
 
