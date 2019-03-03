@@ -1,5 +1,5 @@
 " set colorscheme
-colorscheme pablo
+colorscheme ron
 
 " vim-plug plugins
 call plug#begin()
@@ -11,7 +11,11 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ }
 
 let g:LanguageClient_serverCommands = {
-    \ 'python': ['/home/giovanism/.local/bin/pyls'],
+    \ 'python': ['pyls'],
+    \ }
+
+let g:LanguageClient_serverCommands = {
+    \ 'java': ['jdtls', '-data', getcwd()],
     \ }
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
@@ -29,6 +33,9 @@ Plug 'vim-airline/vim-airline-themes'
 let g:airline_theme             = 'kolor'
 let g:airline_enable_branch     = 1
 let g:airline_enable_syntastic  = 1
+
+"LaTeX stuff
+Plug 'donRaphaco/neotex', { 'for': 'tex' }
 
 call plug#end()
 
