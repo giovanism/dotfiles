@@ -44,3 +44,8 @@ set expandtab
 set shiftwidth=2
 set tabstop=4
 
+"Mouse settings
+set mouse=a
+
+"Other options
+set number relativenumber
