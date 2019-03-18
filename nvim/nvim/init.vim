@@ -4,6 +4,24 @@ colorscheme ron
 " vim-plug plugins
 call plug#begin()
 
+"Airline stuff
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+let g:airline_theme             = 'kolor'
+let g:airline_enable_branch     = 1
+let g:airline_enable_syntastic  = 1
+
+"LaTeX stuff
+Plug 'donRaphaco/neotex', { 'for': 'tex' }
+
+"Typescript stuff
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+
+"Deoplete stuff
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+let g:deoplete#enable_at_startup = 1
+
 "LanguageServer stuff
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
@@ -22,20 +40,6 @@ nnoremap <F5> :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
 nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
-
-"Deoplete stuff
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-let g:deoplete#enable_at_startup = 1
-
-"Airline stuff
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-let g:airline_theme             = 'kolor'
-let g:airline_enable_branch     = 1
-let g:airline_enable_syntastic  = 1
-
-"LaTeX stuff
-Plug 'donRaphaco/neotex', { 'for': 'tex' }
 
 call plug#end()
 
