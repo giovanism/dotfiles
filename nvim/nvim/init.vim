@@ -7,9 +7,19 @@ call plug#begin()
 "Airline stuff
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-let g:airline_theme             = 'kolor'
-let g:airline_enable_branch     = 1
-let g:airline_enable_syntastic  = 1
+let g:airline_theme                       = 'kolor'
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_enable_branch               = 1
+let g:airline_enable_syntastic            = 1
+let g:airline#extensions#tabline#enabled  = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline_symbols = {'space': ' ', 'paste': 'PASTE', 'maxlinenr': '',
+			\'notexists': 'Ɇ', 'crypt': '🔒', 'linenr': '', 'readonly': '',
+			\'spell': 'SPELL', 'modified': '+', 'keymap': 'Keymap: ',
+			\'ellipsis': '...', 'branch': '', 'whitespace': '☲'}
 
 "LaTeX stuff
 Plug 'donRaphaco/neotex', { 'for': 'tex' }
