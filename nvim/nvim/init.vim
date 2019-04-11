@@ -38,10 +38,23 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'bash install.sh',
     \ }
 
+let g:LanguageClient_rootMarkers = {
+    \ 'go': ['.git', 'go.mod'],
+    \ }
+
+"Go stuff
+let g:LanguageClient_serverCommands = {
+    \ 'go': ['gopls']
+    \ }
+
+autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
+
+"Python stuff
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
     \ }
 
+"Java stuff
 let g:LanguageClient_serverCommands = {
     \ 'java': ['jdtls', '-data', getcwd()],
     \ }
