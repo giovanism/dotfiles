@@ -112,6 +112,8 @@ export KEYTIMEOUT=1
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi=nvim
+alias vim=nvim
 
 # Wayland Compatibily settings
 
