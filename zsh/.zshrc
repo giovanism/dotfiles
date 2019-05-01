@@ -8,7 +8,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/giovanism/.oh-my-zsh
+export ZSH=/home/giovanism/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -65,7 +65,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git shrink-path
+  git shrink-path colored-man-pages zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -112,3 +112,11 @@ export KEYTIMEOUT=1
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi=nvim
+alias vim=nvim
+
+# Wayland Compatibily settings
+
+export QT_WAYLAND_FORCE_DPI=physical
+export SDL_VIDEODRIVER=wayland
+export _JAVA_AWT_WM_NONREPARENTING=1

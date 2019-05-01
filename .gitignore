@@ -6,3 +6,4 @@ vim/.vim/plugins
 # nvim plugin git folder
 nvim/nvim/plugged
 nvim/nvim/.netrwhist
+nvim/nvim/autoload
