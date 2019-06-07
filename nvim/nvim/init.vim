@@ -28,6 +28,9 @@ Plug 'donRaphaco/neotex', { 'for': 'tex' }
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
+"fzf stuff
+Plug 'junegunn/fzf.vim'
+
 "Deoplete stuff
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 let g:deoplete#enable_at_startup = 1
