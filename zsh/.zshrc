@@ -120,3 +120,6 @@ alias vim=nvim
 export QT_WAYLAND_FORCE_DPI=physical
 export SDL_VIDEODRIVER=wayland
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+# kubectl completion
+source <(kubectl completion zsh)
