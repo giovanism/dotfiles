@@ -44,20 +44,12 @@ let g:LanguageClient_rootMarkers = {
 
 "Go stuff
 let g:LanguageClient_serverCommands = {
-    \ 'go': ['gopls']
-    \ }
-
-autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
-
-"Python stuff
-let g:LanguageClient_serverCommands = {
+    \ 'go': ['gopls'],
+    \ 'java': ['jdtls', '-data', getcwd()],
     \ 'python': ['pyls'],
     \ }
 
-"Java stuff
-let g:LanguageClient_serverCommands = {
-    \ 'java': ['jdtls', '-data', getcwd()],
-    \ }
+autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
