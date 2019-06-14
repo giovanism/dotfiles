@@ -18,6 +18,8 @@ set $term alacritty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
 set $menu rofi -show run -matching fuzzy
+# Your preffered network menu e.g. networkmanager-dmenu rofi-wifi-menu
+set $netmenu rofi-wifi-menu
 
 ### Output configuration
 #
@@ -76,6 +78,9 @@ exec swayidle \
 
     # start your launcher
     bindsym $mod+d exec $menu
+
+    # start network menu
+    bindsym $mod+n exec $netmenu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
