@@ -1,0 +1,4 @@
+rofi.combi-modi:    window,drun,ssh
+rofi.theme:         glue_pro_blue
+rofi.font:          FantasqueSansMono Nerd Font Mono 12
+rofi.modi:          combi
