@@ -1,9 +1,14 @@
 [user]
 	name = giovanism
 	email = giovanism@outlook.co.id
+	signingkey = B8C26D20D1BF81E113708ABAA16DB41E6706C8E4
+
 [core]
 	editor = nvim
 	pager = less -iXFR
 
 [credential]
 	helper = cache --timeout 7200
+
+[commit]
+	gpgsign = true
