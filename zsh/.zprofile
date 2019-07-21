@@ -1,4 +1,5 @@
 # Variables
+export EDITOR=nvim
 export GOPATH=$HOME/.go
 export GEM_HOME=$HOME/.gem
 
