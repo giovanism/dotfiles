@@ -71,3 +71,5 @@ set mouse=a
 
 "Other options
 set number relativenumber
+set textwidth=80
+set colorcolumn=+1,+41
