@@ -117,9 +117,3 @@ export KEYTIMEOUT=1
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi=nvim
 alias vim=nvim
-
-# Wayland Compatibily settings
-
-export QT_WAYLAND_FORCE_DPI=physical
-export SDL_VIDEODRIVER=wayland
-export _JAVA_AWT_WM_NONREPARENTING=1
