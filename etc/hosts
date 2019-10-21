@@ -2,7 +2,7 @@
 # See hosts(5) for details.
 127.0.0.1	localhost
 ::1		localhost
-127.0.0.1	clustermodulus03.localdomain clustermodulus03.local
+127.0.0.1	clustermodulus04.localdomain clustermodulus04.local
 
 # hosts         This file describes a number of hostname-to-address
 #               mappings for the TCP/IP subsystem.  It is mostly
