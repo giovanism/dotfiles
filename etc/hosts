@@ -1,8 +1,6 @@
 # Static table lookup for hostnames.
 # See hosts(5) for details.
-127.0.0.1	localhost
-::1		localhost
-127.0.0.1	clustermodulus04.localdomain clustermodulus04.local
+127.0.0.1	localhost clustermodulus04.localdomain clustermodulus04.local
 
 # hosts         This file describes a number of hostname-to-address
 #               mappings for the TCP/IP subsystem.  It is mostly
@@ -15,64 +13,24 @@
 #
 
 # reddit specifics domain and subdomains
-151.101.129.140 reddit.com
-151.101.129.140 ww.reddit.com
-151.101.129.140 www.reddit.com
-151.101.129.140 ssl.reddit.com
-151.101.129.140 4x.reddit.com
-151.101.129.140 about.reddit.com
-151.101.129.140 blog.reddit.com
-151.101.129.140 bt.reddit.com
-151.101.129.140 en.reddit.com
-151.101.129.140 en-us.reddit.com
-151.101.129.140 gateway.reddit.com
-151.101.129.140 i.reddit.com
-151.101.129.140 pay.reddit.com
-151.101.129.140 m.reddit.com
-151.101.129.140 nm.reddit.com
-151.101.129.140 np.reddit.com
-151.101.129.140 oauth.reddit.com
-151.101.129.140 out.reddit.com
-151.101.129.140 i.reddituploads.com
-151.101.129.140 redd.it
-151.101.129.140 i.redd.it
-151.101.129.140 www.redditmedia.com
-151.101.129.140 a.thumbs.redditmedia.com
-151.101.129.140 b.thumbs.redditmedia.com
-151.101.129.140 events.redditmedia.com
-151.101.129.140 g.redditmedia.com
-151.101.129.140 i.redditmedia.com
-151.101.129.140 pixel.redditmedia.com
-151.101.129.140 stats.redditmedia.com
-192.0.79.33     redditblog.com
-192.0.79.33     www.redditblog.com
-151.101.129.140 www.redditstatic.com
-151.101.129.140 redditgifts.com
-151.101.129.140 www.redditgifts.com
-151.101.129.140 api.reddit.com
-151.101.129.140 e.reddit.com
-151.101.9.140   reddit.map.fastly.net old.reddit.com
-151.101.9.140   reddit.map.fastly.net gql.reddit.com
-151.101.9.140   reddit.map.fastly.net s.reddit.com
+151.101.129.140 reddit.com ww.reddit.com www.reddit.com ssl.reddit.com 4x.reddit.com about.reddit.com blog.reddit.com bt.reddit.com en.reddit.com en-us.reddit.com gateway.reddit.com i.reddit.com pay.reddit.com m.reddit.com nm.reddit.com np.reddit.com oauth.reddit.com out.reddit.com i.reddituploads.com redd.it i.redd.it www.redditmedia.com a.thumbs.redditmedia.com b.thumbs.redditmedia.com events.redditmedia.com g.redditmedia.com i.redditmedia.com pixel.redditmedia.com stats.redditmedia.com www.redditstatic.com redditgifts.com www.redditgifts.com api.reddit.com e.reddit.com
+192.0.79.33     redditblog.com www.redditblog.com
+151.101.9.140   reddit.map.fastly.net old.reddit.com reddit.map.fastly.net gql.reddit.com reddit.map.fastly.net s.reddit.com
 3.223.182.220   alb.reddit.com
 3.225.77.184    alb.reddit.com
 3.209.204.153   alb.reddit.com
 
 # Boorus
-104.16.116.221  4chan.org
-104.16.116.221  www.4chan.org
-104.16.119.221  boards.4chan.org
-104.16.119.221  is2.4chan.org
-104.16.62.249   i.4cdn.org
-104.16.62.249   s.4cdn.org
+104.16.116.221  4chan.org www.4chan.org
+104.16.119.221  boards.4chan.org is2.4chan.org
+104.16.62.249   i.4cdn.org s.4cdn.org
 2606:4700::6810:3cf9 s.4cdn.org
 2606:4700::6810:3df9 s.4cdn.org
 2606:4700::6810:3ef9 s.4cdn.org
 2606:4700::6810:3af9 s.4cdn.org
 2606:4700::6810:3bf9 s.4cdn.org
 104.18.40.93    meguca.org
-188.165.205.120 yande.re
-188.165.205.120 assets.yande.re
+188.165.205.120 yande.re assets.yande.re
 51.77.247.63    files.yande.re
 104.18.104.234  8ch.net, media.8ch.net, softserve.8ch.net
 104.18.105.234  8ch.net, media.8ch.net, softserve.8ch.net
