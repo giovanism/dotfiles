@@ -117,3 +117,7 @@ export KEYTIMEOUT=1
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi=nvim
 alias vim=nvim
+
+# Misc
+# Miscelaneous interactive zsh environment variable fixes
+export GROFF_NO_SGR=1
