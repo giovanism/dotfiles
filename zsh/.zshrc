@@ -1,9 +1,3 @@
-# sway windom manager from login
-#if [ $(tty) = "/dev/tty1" ]; then
-#    sway
-#    exit 0
-#fi
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -34,6 +28,9 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -115,8 +112,6 @@ export KEYTIMEOUT=1
 alias vi=nvim
 alias vim=nvim
 
-# Wayland Compatibily settings
-
-export QT_WAYLAND_FORCE_DPI=physical
-export SDL_VIDEODRIVER=wayland
-export _JAVA_AWT_WM_NONREPARENTING=1
+# Misc
+# Miscelaneous interactive zsh environment variable fixes
+export GROFF_NO_SGR=1

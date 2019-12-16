@@ -1,0 +1,20 @@
+{
+    "editor.fontFamily": "'FantasqueSansMono Nerd Font Mono', 'Hack', 'monospace', monospace",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+
+    // Enables xkb keybord binding
+    "keyboard.dispatch": "keyCode",
+
+    // Files post-processing
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+
+    // Language servers
+    "go.useLanguageServer": true,
+}

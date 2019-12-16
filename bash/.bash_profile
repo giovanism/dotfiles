@@ -13,6 +13,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:/opt/bin:$HOME/.local/bin:$HOME/go/bin:$HOME/.gem/bin:$HOME/.config/composer/vendor/bin
-
-export PATH
+export EDITOR=nvim
+export GOPATH=$HOME/.go
+export GEM_HOME=$HOME/.gem
+export PATH=$PATH:/opt/bin:$HOME/.local/bin:$HOME/bin:$HOME/.go/bin:$HOME/.gem/bin:$HOME/.config/composer/vendor/bin:$HOME/.perl5/perlbrew/bin:$HOME/.npm-global/bin:$HOME/.cargo/bin:$HOME/.yarn/bin:$HOME/.cargo/bin

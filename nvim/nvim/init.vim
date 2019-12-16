@@ -28,6 +28,9 @@ Plug 'donRaphaco/neotex', { 'for': 'tex' }
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
+"fzf stuff
+Plug 'junegunn/fzf.vim'
+
 "Deoplete stuff
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 let g:deoplete#enable_at_startup = 1
@@ -44,20 +47,12 @@ let g:LanguageClient_rootMarkers = {
 
 "Go stuff
 let g:LanguageClient_serverCommands = {
-    \ 'go': ['gopls']
-    \ }
-
-autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
-
-"Python stuff
-let g:LanguageClient_serverCommands = {
+    \ 'go': ['gopls'],
+    \ 'java': ['jdtls', '-data', getcwd()],
     \ 'python': ['pyls'],
     \ }
 
-"Java stuff
-let g:LanguageClient_serverCommands = {
-    \ 'java': ['jdtls', '-data', getcwd()],
-    \ }
+autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
@@ -76,3 +71,5 @@ set mouse=a
 
 "Other options
 set number relativenumber
+set textwidth=80
+set colorcolumn=+1,+41
