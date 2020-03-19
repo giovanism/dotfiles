@@ -115,3 +115,6 @@ alias vim=nvim
 # Misc
 # Miscelaneous interactive zsh environment variable fixes
 export GROFF_NO_SGR=1
+
+# Vagrant environment variables
+export VAGRANT_DEFAULT_PROVIDER=libvirt
