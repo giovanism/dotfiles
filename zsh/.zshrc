@@ -62,8 +62,12 @@ DISABLE_MAGIC_FUNCTIONS=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git shrink-path colored-man-pages zsh-autosuggestions
+  git shrink-path colored-man-pages zsh-autosuggestions tmux
 )
+
+# plugins configuration variables
+ZSH_TMUX_AUTOSTART=false
+ZSH_TMUX_AUTOCONNECT=false
 
 source $ZSH/oh-my-zsh.sh
 
